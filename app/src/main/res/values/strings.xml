@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">QueueLess</string>
+    <string name="tagline">Smart Digital Queue &amp; Appointment System</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to manage your appointments &amp; tokens</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Register as a customer to get started</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password (min 6 characters)</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Create Account</string>
+    <string name="prompt_no_account">Don\'t have an account? Register</string>
+    <string name="prompt_has_account">Already have an account? Sign In</string>
+    <string name="error_empty_fields">Please fill in all required fields</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_password_match">Passwords do not match</string>
+
+    <!-- Dashboard & Common -->
+    <string name="customer_dashboard_title">Customer Portal</string>
+    <string name="admin_dashboard_title">Office Administration</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="action_connect_office">Connect to Office</string>
+    <string name="action_connect_office_desc">Enter an office code to join queue or book slot</string>
+    <string name="action_my_active_token">Active Queue Token</string>
+    <string name="action_my_active_token_desc">View your live token number and waiting status</string>
+    <string name="action_booking_history">Booking History</string>
+    <string name="action_booking_history_desc">View past appointments and token records</string>
+    <string name="admin_queue_manage">Queue Management</string>
+    <string name="admin_queue_manage_desc">Call next, serve, and manage live queue tokens</string>
+    <string name="admin_slot_manage">Manage Slots &amp; Capacity</string>
+    <string name="admin_slot_manage_desc">Configure daily limits and appointment timings</string>
+    <string name="unauthorized_access">Unauthorized access. Redirecting...</string>
+</resources>

@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allows full read and write access to any authenticated user (Customer or Admin)
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

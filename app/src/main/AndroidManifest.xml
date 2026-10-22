@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Network permissions required for Firebase Auth and Cloud Firestore -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_queue_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_queue_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QueueLess">
+
+        <!-- Splash Activity (Launcher) -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth Activities -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Role Dashboards -->
+        <activity
+            android:name=".activities.CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- Customer Flow Activities -->
+        <activity
+            android:name=".activities.OfficeConnectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyTokenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingHistoryActivity"
+            android:exported="false" />
+
+        <!-- Admin Flow Activities -->
+        <activity
+            android:name=".activities.AdminQueueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageSlotsActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
